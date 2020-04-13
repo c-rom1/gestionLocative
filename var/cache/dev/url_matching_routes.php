@@ -9,6 +9,7 @@ return [
     false, // $matchHost
     [ // $staticRoutes
         '/' => [[['_route' => 'App_GestionLocative_Authentification', '_controller' => 'App\\Controller\\AuthentificationController::authentification'], null, null, null, false, false, null]],
+        '/accueil' => [[['_route' => 'App_GestionLocative_Accueil', '_controller' => 'App\\Controller\\AccueilController::accueil'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'
