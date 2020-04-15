@@ -1,3 +1,5 @@
+# config/routes.yaml
+
 App_GestionLocative_Authentification:
     path: /
     controller: App\Controller\AuthentificationController::authentification
