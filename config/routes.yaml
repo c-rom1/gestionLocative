@@ -3,5 +3,5 @@ App_GestionLocative_Authentification:
     controller: App\Controller\AuthentificationController::authentification
 
 App_GestionLocative_Accueil:
-    path : /accueil
-    controller : App\Controller\AccueilController::accueil
+    path: /accueil
+    controller: App\Controller\AccueilController::accueil
