@@ -1,9 +1,9 @@
 # config/routes.yaml
 
-App_GestionLocative_Authentification:
-    path: /
-    controller: App\Controller\AuthentificationController::authentification
+#App_GestionLocative_Authentification:
+#    path: /
+#    controller: App\Controller\AuthentificationController::authentification
 
-App_GestionLocative_Accueil:
-    path: /accueil
-    controller: App\Controller\AccueilController::accueil
+#App_GestionLocative_Accueil:
+#    path: /accueil
+#    controller: App\Controller\AccueilController::accueil

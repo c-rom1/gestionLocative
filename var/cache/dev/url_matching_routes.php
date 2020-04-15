@@ -8,8 +8,8 @@
 return [
     false, // $matchHost
     [ // $staticRoutes
-        '/' => [[['_route' => 'App_GestionLocative_Authentification', '_controller' => 'App\\Controller\\AuthentificationController::authentification'], null, null, null, false, false, null]],
-        '/accueil' => [[['_route' => 'App_GestionLocative_Accueil', '_controller' => 'App\\Controller\\AccueilController::accueil'], null, null, null, false, false, null]],
+        '/accueil' => [[['_route' => 'app_accueil_accueil', '_controller' => 'App\\Controller\\AccueilController::accueil'], null, null, null, false, false, null]],
+        '/' => [[['_route' => 'app_authentification_authentification', '_controller' => 'App\\Controller\\AuthentificationController::authentification'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

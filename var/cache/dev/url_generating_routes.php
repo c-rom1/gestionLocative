@@ -4,5 +4,8 @@
 
 return [
     '_preview_error' => [['code', '_format'], ['_controller' => 'error_controller::preview', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], []],
+    'app_accueil_accueil' => [[], ['_controller' => 'App\\Controller\\AccueilController::accueil'], [], [['text', '/accueil']], [], []],
+    'app_authentification_authentification' => [[], ['_controller' => 'App\\Controller\\AuthentificationController::authentification'], [], [['text', '/']], [], []],
     'App_GestionLocative_Authentification' => [[], ['_controller' => 'App\\Controller\\AuthentificationController::authentification'], [], [['text', '/']], [], []],
+    'App_GestionLocative_Accueil' => [[], ['_controller' => 'App\\Controller\\AccueilController::accueil'], [], [['text', '/accueil']], [], []],
 ];
